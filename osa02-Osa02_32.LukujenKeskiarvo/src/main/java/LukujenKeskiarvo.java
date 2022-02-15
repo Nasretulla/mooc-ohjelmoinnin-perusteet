@@ -1,0 +1,20 @@
+
+public class LukujenKeskiarvo {
+
+    // toteuta tähän uudelleen aiemmin tekemäsi summametodi
+    public static int summa(int luku1, int luku2, int luku3, int luku4) {
+        // kirjoita koodia tähän
+        int lukujenSumma = luku1 + luku2 + luku3 + luku4;
+
+        return lukujenSumma;
+    }
+
+    public static double keskiarvo(int luku1, int luku2, int luku3, int luku4) {
+        return summa(luku1, luku2, luku3, luku4) / 4.0;
+    }
+
+    public static void main(String[] args) {
+        double vastaus = keskiarvo(4, 3, 6, 1);
+        System.out.println("Keskiarvo: " + vastaus);
+    }
+}
